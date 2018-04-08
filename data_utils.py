@@ -82,7 +82,7 @@ def generate_image(full, blur, generated, path, epoch=None, index=None):
 
 
 if __name__ == '__main__':
-    format_image('data/small/test/301.jpg', size=256)
+    #format_image('data/small/test/301.jpg', size=256)
     build_hdf5('data/small')
     img_full, img_blur = load_data('train')
     print(img_full, '\n', len(img_blur))
